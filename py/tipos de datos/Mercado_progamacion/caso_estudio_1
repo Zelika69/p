@@ -1,0 +1,11 @@
+altura = float(input("Ingresa tu altura en CM:"))
+edad = int(input("Ingresa tu edad:"))
+if altura >= 120 and edad >= 12:
+    print("Puedes entrar")
+else:
+    print('''
+    Lo siento pero debes tener
+    120cm
+    y ser mayor a
+    12 años de edad''')
+

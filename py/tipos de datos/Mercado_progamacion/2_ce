@@ -1,0 +1,8 @@
+while True:
+    cali = float(input("Ingresa tu calificiacion:"))
+    
+
+if cali < 70 : 
+    print ("No aprobaste")
+elif cali >= 70 :
+    print("aprovaste")
